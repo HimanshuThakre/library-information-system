@@ -1,0 +1,14 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Local MongoDB data (if you ran mongod inside the project folder)
+mongo_data/
+*.log
