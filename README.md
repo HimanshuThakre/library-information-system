@@ -75,6 +75,10 @@ db.transactions.find({ status: "Issued" })
 db.books.aggregate([{ $group: { _id: "$dept", copies: { $sum: "$total_copies" } } }])
 ```
 
+## License
+
+Released under the [MIT License](LICENSE).
+
 ## Author
 
-Your Name, your course and college.
+Himanshu Thakre
